@@ -3,6 +3,7 @@ terraform {
     resource_group_name = "NoBS"
     storage_account_name = "nobsstorageaccount"
     container_name = "tfstate"
+    keyvault_name = "NOBS"
     key = "terraform.state"
   }
   required_providers {
@@ -19,7 +20,7 @@ provider "azurerm" {
 
 
 data "azurerm_key_vault" "kv" {
-  name                = "NOBS"
+  name                = var.resourceGroup
   resource_group_name = var.resourceGroup
 }
 
