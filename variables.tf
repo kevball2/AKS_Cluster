@@ -12,3 +12,8 @@ variable "location" {
     type = string
     description = "Regio"
 }
+
+variable "keyvault" {
+    type = string
+    description = "Azure Keyvault Name"
+}
