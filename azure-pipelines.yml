@@ -29,7 +29,7 @@ steps:
     command: 'init'
     backendServiceArm: $(serviceConnectionName)
     backendAzureRmResourceGroupName: 'NoBS'
-    backendAzureRmStorageAccountName: 'nobsstorageaccount'
+    backendAzureRmStorageAccountName: 'nobsstorageaccount1'
     backendAzureRmContainerName: 'tfstate'
     backendAzureRmKey: 'tf/terraform.tfstate'
 
