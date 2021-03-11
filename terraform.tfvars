@@ -1,4 +1,4 @@
 Name = "NoBS-aks01"
 resourceGroup = "NoBS"
-location = "eastus"
-keyvault = "NOBS"
+location = "centralus"
+keyvault = "NOBS1"
