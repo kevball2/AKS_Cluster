@@ -3,7 +3,6 @@ terraform {
     resource_group_name = "NoBS"
     storage_account_name = "nobsstorageaccount"
     container_name = "tfstate"
-    keyvault_name = "NOBS"
     key = "terraform.state"
   }
   required_providers {
