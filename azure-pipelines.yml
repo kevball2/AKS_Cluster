@@ -12,7 +12,7 @@ steps:
   displayName: "Download key vault variables for Terraform"
   inputs:
     azureSubscription: $(serviceConnectionName)
-    KeyVaultName: 'NOBS'
+    KeyVaultName: 'NOBS1'
     SecretsFilter: 'AKSClientId'
 - task: AzureCLI@2
   inputs:
