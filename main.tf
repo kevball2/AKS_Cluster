@@ -19,7 +19,7 @@ provider "azurerm" {
 
 
 data "azurerm_key_vault" "kv" {
-  name                = var.resourceGroup
+  name                = var.keyvault
   resource_group_name = var.resourceGroup
 }
 
