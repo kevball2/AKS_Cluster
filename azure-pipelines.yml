@@ -20,8 +20,8 @@ steps:
     scriptType: 'pscore'
     scriptLocation: 'inlineScript'
     inlineScript: |
-      az storage account create -n nobsstorageaccount -g NoBS -l eastus --sku Standard_LRS
-      az storage container create --name tfstate --account-name nobsstorageaccount
+      az storage account create -n nobsstorageaccount1 -g NoBS -l centralus --sku Standard_LRS
+      az storage container create --name tfstate --account-name nobsstorageaccount1
     
 - task: TerraformTaskV1@0
   inputs:
